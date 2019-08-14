@@ -70,3 +70,8 @@ _A list of my commonly used Git commands_
 | `git log --summary` | View changes (detailed) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
 
+### Remove
+| Command | Description |
+| ------- | ----------- |
+| `git clean -df` | Cleans the working tree by recursively removing files that are not under version control -d: Remove untracked directories  -f: Force |
+
