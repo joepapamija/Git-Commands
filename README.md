@@ -70,8 +70,14 @@ _A list of my commonly used Git commands_
 | `git log --summary` | View changes (detailed) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
 
+### TAG
+| Command | Description |
+| ------- | ----------- |
+| `git push origin --tags` | push tags to remote |
+
 ### Remove
 | Command | Description |
 | ------- | ----------- |
 | `git clean -df` | Cleans the working tree by recursively removing files that are not under version control -d: Remove untracked directories  -f: Force |
+| `git reset -Hard` | remove ALL chandes in workspace, back to the HEAD version |
 
