@@ -39,6 +39,8 @@ _A list of my commonly used Git commands_
 | `git branch -d [branch name]` | Delete a branch |
 | `git push origin --delete [branch name]` | Delete a remote branch |
 | `git checkout -b [branch name]` | Create a new branch and switch to it |
+| `git checkout -b [branch name] Commit` | Checkout a commint and create a new branch |
+| `git checkout -b issues-branch 56a4e5c08` | Example |
 | `git checkout -b [branch name] origin/[branch name]` | Clone a remote branch and switch to it |
 | `git branch -m [old branch name] [new branch name]` | Rename a local branch |
 | `git checkout [branch name]` | Switch to a branch |
@@ -61,6 +63,12 @@ _A list of my commonly used Git commands_
 | `git pull origin [branch name]` | Pull changes from remote repository |
 | `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | Add a remote repository |
 | `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Set a repository's origin branch to SSH |
+
+### Submodules
+| Command | Description |
+| ------- | ----------- |
+| `git submodule add <url-repository> folder` | add submodule into repository  |
+| `git submodule update` | Update submodules |
 
 ### Inspection & Comparison
 
