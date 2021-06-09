@@ -68,6 +68,7 @@ _A list of my commonly used Git commands_
 | ------- | ----------- |
 | `git log` | View changes |
 | `git log --summary` | View changes (detailed) |
+| `git log --oneline -10` | View the last 10 one line commits |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
 
 ### Remove
